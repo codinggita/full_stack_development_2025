@@ -120,6 +120,4 @@ This repository is licensed under the [MIT License](LICENSE).
 For any questions or issues, feel free to open an issue or contact me via [email or other contact information].
 
 Happy coding! 🚀
-
-# Arcade Array
 --- 
