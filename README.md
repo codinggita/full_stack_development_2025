@@ -1,4 +1,4 @@
-# Project Plan for Developer News and Job Matching Platform
+# Project Plan for Developer News and Job Matching Platform ( POST.dev )
 
 ## FIGMA DESIGN LINK : https://www.figma.com/design/90bnsWLGbWNxffn0FbKcas/mysite?node-id=0-1&t=uWQBapcdw0V6eM1L-1
 
