@@ -122,3 +122,32 @@ For any questions or issues, feel free to open an issue or contact me via [email
 Happy coding! 🚀
 
 --- 
+# Project Name : Finoptix 
+## FINOPTIX : Expense Tracking Redefined, Financial Goals Achieved!
+
+## Figma Design link: https: https://www.figma.com/design/rjfKdEfA1XsphaxZyNThj5/finoptix?node-id=0-1&t=KlEIaj2YuxPYcHLe-1                                                                                                                           
+## Problem Statement:
+
+Managing finances is increasingly complex, with rising expenses and limited tools for real-time insights or personalized financial aid. Finoptix solves this by offering an intuitive platform that simplifies expense tracking and provides tailored guidance, empowering users to make smarter financial decisions and achieve stability.
+
+# Overview:
+
+Finoptix is a web-based platform that simplifies financial management through intuitive expense tracking and personalized financial aid solutions. It empowers users with real-time insights, helping them understand spending habits, manage budgets, and make smarter financial decisions for lasting stability.
+
+The main goal is to make everyone financially independent and make smarter choices regarding their finance and investments.
+
+# Features:
+
+Expense Tracking: Easily track and categorize your daily expenses, helping users stay on top of their spending and manage their budgets effectively.
+Personalized Financial Aid Insights: Receive customized financial aid options and guidance based on individual needs, helping users explore potential financial support programs.
+Real-Time Budget Monitoring: Stay up-to-date with live budget tracking, providing alerts and recommendations to keep users within their financial goals.
+Income and Expense Reports: Generate detailed income and expense reports to track financial progress over time, offering users a clearer picture of their finances.
+Financial Goal Setting: Set and track personalized financial goals (e.g., savings, debt repayment), with progress monitoring and actionable tips to help achieve them.
+User-Friendly Interface: A clean, intuitive design that makes tracking and managing finances simple and accessible, even for those new to financial management.
+
+# Tech Stack
+
+Frontend: React.js, HTML5, Tailwind, JavaScript
+Backend: Node.js, Express.js
+Database: MongoDB
+Version Control: Git, GitHub
