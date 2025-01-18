@@ -122,3 +122,66 @@ For any questions or issues, feel free to open an issue or contact me via [email
 Happy coding! 🚀
 
 --- 
+# **ShutterSphere**
+*Where Moments Meet Masterpieces*
+
+---
+
+## **Slogan**
+*Bridging Clients and Photographers for Picture-Perfect Experiences.*
+
+---
+
+## **Problem Statement**
+Finding skilled photographers tailored to specific events and requirements can be time-consuming and unreliable. Clients often struggle with verifying photographers’ skills, availability, and pricing. Similarly, photographers face challenges in showcasing their portfolios and connecting with potential clients. This platform resolves these pain points by offering a seamless, transparent, and efficient way to connect photographers and clients.
+
+---
+
+## **Overview of the Project**
+**ShutterSphere** is an on-demand photography services platform designed to connect clients with professional photographers. Whether it’s for weddings, portraits, corporate events, or creative projects, this platform bridges the gap between photographers and clients. Users can easily search, filter, and book photographers based on their preferences, while photographers can showcase their portfolios, manage bookings, and grow their client base.
+
+This full-stack platform combines an intuitive user interface with robust backend functionality to create a seamless experience for all users.
+
+---
+
+## **Features of the Project**
+
+### **Client Features:**
+- Search for photographers by location, budget, and specialization.
+- Browse detailed portfolios and reviews.
+- Book photographers for events with real-time availability.
+- One-on-one live chat with photographers.
+- Leave ratings and reviews after the booking.
+
+### **Photographer Features:**
+- Create a professional portfolio with photos, achievements, and services.
+- Manage bookings and availability calendar.
+- Receive direct inquiries from clients.
+- Build credibility through client ratings and reviews.
+- Tailored dashboard for performance tracking.
+
+### **Platform-Wide Features:**
+- Secure account creation for both clients and photographers.
+- Filters for budget, location, and specialization.
+- Aesthetic and responsive design for seamless use across devices.
+- Integration of payment gateways for secure transactions.
+
+---
+
+## **Technology Stack**
+
+### **Frontend:**
+- **React.js:** For building a dynamic and responsive user interface.
+- **Figma (Design Tool):** For crafting intuitive UI/UX designs.
+
+### **Backend:**
+- **Node.js** with **Express.js:** For creating a robust and scalable server-side application.
+
+### **Database:**
+- **MongoDB:** To store user information, portfolios, bookings, and reviews.
+
+### **Additional Tools and Libraries:**
+- **Socket.IO:** For real-time one-on-one live chat.
+- **Cloudinary:** For uploading and managing portfolio images.
+- **JWT (JSON Web Tokens):** For secure authentication.
+- **CSS Framework:** Tailwind CSS or Bootstrap for styling.
