@@ -1,5 +1,7 @@
 # Project Plan for Developer News and Job Matching Platform
 
+## FIGMA DESIGN LINK : https://www.figma.com/design/90bnsWLGbWNxffn0FbKcas/mysite?node-id=0-1&t=uWQBapcdw0V6eM1L-1
+
 ## 1. Which problem is your project solving?
 - **Problem:** The difficulty of staying updated with relevant industry news, job opportunities, and personalized career development guidance. Additionally, it addresses the challenge of finding jobs that are aligned with a user's resume and career aspirations.
 
