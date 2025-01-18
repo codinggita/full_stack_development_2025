@@ -19,7 +19,7 @@ Performance Tracking: Monitor your progress with personalized dashboards and ins
 User Authentication: Secure and seamless login and registration for a personalized learning experience.
 Responsive Design: Optimized for use on desktops, tablets, and smartphones.
 
-# Tech Stack
+# Tech Stack:
 Frontend: React.js, HTML5, CSS3, JavaScript
 Backend: Node.js, Express.js
 Database: MongoDB
