@@ -135,6 +135,8 @@ Happy coding! 🚀
 ## **Figma Design**
 [View Figma Design](https://www.figma.com/design/rGMySFjXI7AcEytfM11DgC/Untitled?node-id=0-1&t=LtLytzfbjQrYFkBf-1)
 
+---
+
 ## **Problem Statement**
 Finding skilled photographers tailored to specific events and requirements can be time-consuming and unreliable. Clients often struggle with verifying photographers’ skills, availability, and pricing. Similarly, photographers face challenges in showcasing their portfolios and connecting with potential clients. This platform resolves these pain points by offering a seamless, transparent, and efficient way to connect photographers and clients.
 
