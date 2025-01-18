@@ -1,7 +1,7 @@
 
-# Project Name:  Task Bridge: An Innovative Solution for Project Management
+# Project Name: Task Bridge: An Innovative Solution for Project Management
 
-## Figma Design Link: [Task Bridge ](https://www.figma.com/design/jEl4fmd7xKQj1auwksj5Q1/TASK-BRIDGE?node-id=0-1&t=iC8RW9DaJqFLbqNL-1)
+## Figma Design Link 🔗: [Task Bridge  ](https://www.figma.com/design/jEl4fmd7xKQj1auwksj5Q1/TASK-BRIDGE?node-id=0-1&t=iC8RW9DaJqFLbqNL-1)
 
 ## Problem Statement
 Project management often has problems like poor communication and inefficiency. Existing tools are too hard to use or lack important features. Task Bridge solves this by giving teams a simple, all-in-one platform to manage tasks, work together, and track progress.
@@ -102,5 +102,3 @@ Task Bridge stands out by combining project management, real-time collaboration,
 3. **AI-Driven Insights:** Predictive analytics for project planning and risk management.
 4. **Third-Party Integrations:** Partner with popular tools (e.g., Slack, Notion) to enhance usability.
 
-## Conclusion
-Task Bridge makes project management simple and effective. It brings all the tools teams need into one easy app, from task tracking to real-time teamwork. With Task Bridge, teams can work better, stay organized, and reach their goals faster.
