@@ -122,3 +122,11 @@ For any questions or issues, feel free to open an issue or contact me via [email
 Happy coding! 🚀
 
 --- 
+
+Problem Statement
+Freelancers often struggle to efficiently manage client relationships, track project progress, and organize tasks, leading to missed deadlines and miscommunication. The lack of a centralized system for managing these responsibilities makes it challenging to deliver quality work and maintain long-term client relationships.
+
+Solution
+The Freelancer Relationship Manager is a streamlined application designed to help freelancers manage client details, track project timelines, and organize tasks in one place. With user-friendly UI/UX and integration features, the solution simplifies workflow management, improves communication, and ensures on-time delivery of projects, fostering better client satisfaction.
+
+Figma Design link for flexmate :- https://www.figma.com/design/zL6KLAX12v82eye92v7HNM/CodingGita-Project?node-id=739-114&t=zLClM0tesxCnLkrW-1
