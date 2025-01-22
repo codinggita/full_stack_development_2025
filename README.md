@@ -1,4 +1,6 @@
-# Full Stack Development 2025
+Project Name- Luxe Estate
+Problem statement - I have created a old money website where user can get outfits at low price 
+Here is the figma link- https://www.figma.com/design/8idhJAd1WOXAiQWHxvZPci/Kreep?node-id=0-1&t=weQw7SShh9jIKz0f-1
 
 Welcome to the **full_stack_development_2025** repository! This repository is dedicated to helping developers learn and implement full-stack development concepts, focusing on React for the front end. It includes projects, tutorials, and best practices to guide you in mastering full-stack development.
 
