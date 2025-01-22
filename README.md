@@ -1,124 +1,122 @@
-# Full Stack Development 2025
+# Project name - Borrowly
 
-Welcome to the **full_stack_development_2025** repository! This repository is dedicated to helping developers learn and implement full-stack development concepts, focusing on React for the front end. It includes projects, tutorials, and best practices to guide you in mastering full-stack development.
+## Figma link - https://www.figma.com/design/ssxNm4yuwZnWkM1tYeJcxQ/1yearFinalProj?node-id=56-4&t=g9Wo9vW1hk016Bkx-1
 
-## Table of Contents
+###  Q1- Which problem is your project solving ?
+Borrowly solves the problem of affordability and accessibility by allowing users to borrow or rent clothes, shoes, and accessories, reducing costs and promoting sustainable fashion.
+###  Why is this problem important to address ?
+This problem is important to address because it promotes sustainable consumption, reduces waste in the fashion industry, and makes trendy or high-quality items more affordable and accessible to a wider audience.
 
-1. [Repository Overview](#repository-overview)
-2. [Folder Structure](#folder-structure)
-3. [Getting Started](#getting-started)
-4. [React Setup](#react-setup)
-5. [Contributing](#contributing)
-6. [License](#license)
 
----
+###  Q2-What are the existing similar solutions ?
+### What are their strengths and weaknesses ?
+Existing Similar Solutions: 
 
-## Repository Overview
+https://kuroindia.in/
+    <li>Strengths: Focuses on Indian ethnic wear, affordable for weddings/events .</li>
+    <li>Weaknesses: Limited to specific categories i.e. only for women .</li>
 
-The **full_stack_development_2025** repository is designed to guide learners through various stages of full-stack web development. It covers the **front-end** with React and the **back-end** with Node.js, Express, and other technologies as the repository expands. This is a great resource for beginners and intermediate learners looking to build projects and improve their skills.
 
-The primary goal is to provide a clear path for full-stack developers by covering:
-- React for building interactive user interfaces
-- Node.js and Express for creating back-end APIs
-- Database integration with MongoDB (and more)
-- Deployment using cloud platforms like AWS, Heroku, etc.
+https://www.rentanattire.com/index.php
+    <li>Strengths: Wide variety of premium clothing, user-friendly interface, subscription plans.</li>
+    <li>Weaknesses: Expensive for casual users, limited availability in certain regions.</li>
 
----
 
-## Folder Structure
+### Q3-How do you want to solve it ?
+### What approach or methodology will you use ?
+Borrowly will create a platform that enables users to browse, rent, and lend clothes, shoes, and accessories for men and women through a seamless, user-friendly interface.
 
-```bash
-full_stack_development_2025/
-├── react/                  # React-related projects and tutorials
-│   ├── project1/           # Example React project 1
-│   ├── project2/           # Example React project 2
-│   └── README.md           # React folder guide and details
-├── node/                   # Node.js and backend tutorials (coming soon)
-├── databases/              # Database examples and tutorials (coming soon)
-├── deployment/             # Deployment guides (coming soon)
-└── README.md               # Main repository guide
-```
+Approach or methodology:-
+1) User-Centric Design:
+Intuitive navigation, detailed filters (gender, type, size, occasion), and secure transactions.
 
-### `react/`
-This folder contains all React-related code, tutorials, and examples. The React folder will feature various projects and guides focused on building user interfaces using React and managing the front end.
+2) Sustainability Focus:
+Promote eco-friendly practices and educate users on the benefits of renting over buying.
 
----
+3) Technology Stack:
+Use React for the front end, Node.js with Express for the backend, and MongoDB for a scalable database.
 
-## Getting Started
 
-To get started with this repository, you'll need to clone it to your local machine:
+### Q4-List the features you want to implement ?
+### Which features are essential for a minimum viable product (MVP)?
+### Which features can be added later?
+Features to Implement :-
+Essential Features for MVP:
+1) User Authentication:
+Login/Sign-up with email or social media.
 
-```bash
-git clone https://github.com/your-username/full_stack_development_2025.git
-```
+2) Product Catalog:
+Categories: Clothes, Shoes, Accessories (Men/Women).
+Filters: Gender, Size, Type, Occasion, Price.
 
-Once you've cloned the repository, navigate to the `react` folder to begin exploring React-specific tutorials and projects.
+3) Renting Process:
+Borrow/rent items with clear pricing and rental duration options.
 
-### Prerequisites
 
-Before you start, make sure you have the following installed:
+Features to Add Later:-
+1) Wishlist/Favorites:
+Save items for future rentals.
 
-- [Node.js](https://nodejs.org/) (for running React, Express, and Node)
-- [npm](https://www.npmjs.com/) (Node Package Manager, typically installed with Node.js)
-- A code editor like [Visual Studio Code](https://code.visualstudio.com/) or your preferred editor.
+2) Chat Support:
+Real-time assistance for users.
 
----
 
-## React Setup
+### Q5-Who is your target audience?
+Borrowly is designed for individuals who want flexible and cost-effective
+access to clothing, shoes, and accessories. The primary target audience includes:
+1) Young adults (18-35 years) : who frequently need items for short-term use (e.g., formal attire, party outfits).
+2) Budget-conscious shoppers : users who are looking for budget friendly shopping instead of buying high range products .
+3) Frequent travelers : who prefer to borrow/rent items like seasonal clothing or gear for vacations .
+### What are their specific needs, challenges, or pain points ?
+Cost Concerns , Sustainability Goals , Storage Issues , Convenience , Trust
+###  Howdoes your project directly address these needs?
+Cost-Effective Options: Borrowly provides affordable borrowing and rental solutions, allowing users to access high-quality items without a hefty price tag .
+User-Friendly Platform: Borrowly’s intuitive design ensures users can easily search, filter, and transact with minimal effort.
 
-1. **Navigate to the React folder**:
 
-    ```bash
-    cd react
-    ```
+###  Q6-What is the unique selling point (USP) of your solution?
+Borrowly offers an all-in-one platform for renting and borrowing clothes, shoes, and accessories for both men and women, emphasizing:
+<li>Inclusivity: Wide range of products for all genders and occasions.</li>
+<li>Affordability: Budget-friendly options for quality fashion.</li>
+<li>Sustainability: Promotes eco-friendly fashion practices by reducing waste.</li>
+<li>User Empowerment: Peer-to-peer lending for earning and saving.</li>
+<li>Convenience: Intuitive UI, personalized recommendations, and hassle-free logistics.</li>
+<li>Borrowly stands out by blending affordability, inclusivity, and sustainability in a single seamless experience.</li>
 
-2. **Install the dependencies** (make sure to run this command inside any project folder you want to work with):
+### What differentiates your project from existing solutions?
+Flexibility of Options , Diverse Product Categories , Sustainability Focus, Personalized Experience , User-Centric Design
+### Why would users choose your solution over others?
+One-Stop Platform , Affordability , Sustainability and Values , Community and trust .
 
-    ```bash
-    npm install
-    ```
 
-3. **Start the React development server**:
+###  Q7-Whatresources and tools are required for the project?
+Design Tools: Figma for UI/UX prototyping.
 
-    ```bash
-    npm start
-    ```
+Development Stack: React (frontend), Node.js (backend), MongoDB (database).
 
-This will start a local development server and open your default browser to view the React app.
+APIs: Payment gateways, location-based services, and product availability.
 
----
+Hosting: AWS, Vercel, or Netlify for deployment.
 
-## Contributing
+Marketing: Social media platforms and digital marketing tools.
 
-We welcome contributions from developers who are passionate about full-stack development! If you want to contribute, follow these steps:
+### Do you have the necessary technical skills and tools to execute the project?:
+Yes,I have experience in web development (React), API integration, and UI/UX design and database managament (node.js).
 
-1. Fork the repository to your GitHub account.
-2. Create a new branch for your feature or fix:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Make your changes and commit them:
-   ```bash
-   git commit -m "Add feature or fix"
-   ```
-4. Push your changes:
-   ```bash
-   git push origin feature-name
-   ```
-5. Open a pull request to the `main` branch of the original repository.
 
----
+### Q8-Whatresources and tools are required for the project?
+### What are the key metrics or indicators of success?
+### How will you gather feedback from users?
+To measure the success of the project, key metrics include user engagement, conversion rates (e.g., purchases, rentals, or borrows), customer satisfaction (via feedback or surveys), website traffic, and retention rates. User feedback can be gathered through surveys, user interviews, reviews, and tracking user behavior on the site using analytics tools.
 
-## License
+### Q9-Whatarethepotential risks and challenges?
+### How will you mitigate these risks?
+### Are there any technical, financial, or regulatory hurdles to overcome ?
+Potential risks and challenges include :
+Technical risk , security risk , user adoption , financial risk , regulatory hurdles .
 
-This repository is licensed under the [MIT License](LICENSE).
-
----
-
-### Additional Information
-
-For any questions or issues, feel free to open an issue or contact me via [email or other contact information].
-
-Happy coding! 🚀
-
---- 
+### Q10- Whatare your plans for scaling and future development?
+### How will the project grow after the initial launch?
+### Are there opportunities for partnerships or expansions?
+Plans for scaling and future development include :
+Feature Expansion , Performance Scaling , User Base Growth , Partnership Opportunities , Global Expansion
