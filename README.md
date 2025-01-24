@@ -1,124 +1,82 @@
-# Full Stack Development 2025
 
-Welcome to the **full_stack_development_2025** repository! This repository is dedicated to helping developers learn and implement full-stack development concepts, focusing on React for the front end. It includes projects, tutorials, and best practices to guide you in mastering full-stack development.
+## CodingGita Student Portal
 
-## Table of Contents
 
-1. [Repository Overview](#repository-overview)
-2. [Folder Structure](#folder-structure)
-3. [Getting Started](#getting-started)
-4. [React Setup](#react-setup)
-5. [Contributing](#contributing)
-6. [License](#license)
+## Figma Design :
+ https://www.figma.com/design/WDrjteBu8uWB6nWkoIAD0Y/CG-Student-Portal?node-id=0-1&t=DXSjLWQqOaVpLDgJ-1
 
----
+1. **Problem Statement**  
 
-## Repository Overview
+   - To fill gap in our education system,CodingGita , a startup laid on missioon to change system , i.e to
+     eliminate gap between industry and Collages.
 
-The **full_stack_development_2025** repository is designed to guide learners through various stages of full-stack web development. It covers the **front-end** with React and the **back-end** with Node.js, Express, and other technologies as the repository expands. This is a great resource for beginners and intermediate learners looking to build projects and improve their skills.
+   - However Student with this programme needs to showcase their talent,skills through brand name of CodingGita,
+     moreover to capture education market,trust buildiing within students,parents and institutions is necessary.
 
-The primary goal is to provide a clear path for full-stack developers by covering:
-- React for building interactive user interfaces
-- Node.js and Express for creating back-end APIs
-- Database integration with MongoDB (and more)
-- Deployment using cloud platforms like AWS, Heroku, etc.
+   - Therefore,CodingGita Student Portal aims to showcase their students ambitious ideas,skills and projects which
+     in return builds trusts and brand for CodingGita
 
----
+   
 
-## Folder Structure
+2. **Existing Similar Solutions?**  
 
-```bash
-full_stack_development_2025/
-├── react/                  # React-related projects and tutorials
-│   ├── project1/           # Example React project 1
-│   ├── project2/           # Example React project 2
-│   └── README.md           # React folder guide and details
-├── node/                   # Node.js and backend tutorials (coming soon)
-├── databases/              # Database examples and tutorials (coming soon)
-├── deployment/             # Deployment guides (coming soon)
-└── README.md               # Main repository guide
-```
+      No such solution exists except linkdin which is completely different from our product
 
-### `react/`
-This folder contains all React-related code, tutorials, and examples. The React folder will feature various projects and guides focused on building user interfaces using React and managing the front end.
+3. **Proposed Solution**  
 
----
+   - Portal offers personalised dashboard to upload articles and ideas , with support and guidance from Alumini. Goal is to
+     create a culture where students feel free to express themselves.
 
-## Getting Started
 
-To get started with this repository, you'll need to clone it to your local machine:
+4. **Core Features**  
 
-```bash
-git clone https://github.com/your-username/full_stack_development_2025.git
-```
+    - Newsletter/Events
+    - Dashboard
+    - CG Connect
+    - Media Gallery
+    - Brainstorming Section
+    - CG-Clubs -Resources
 
-Once you've cloned the repository, navigate to the `react` folder to begin exploring React-specific tutorials and projects.
 
-### Prerequisites
+5. **Target Audience**  
+   
+      Target audience would :
+      - Students enrolled in CG
+      - Parents
+      - Institutions
+      - Recruiters
 
-Before you start, make sure you have the following installed:
 
-- [Node.js](https://nodejs.org/) (for running React, Express, and Node)
-- [npm](https://www.npmjs.com/) (Node Package Manager, typically installed with Node.js)
-- A code editor like [Visual Studio Code](https://code.visualstudio.com/) or your preferred editor.
+6. **Technical Stack**  
 
----
+   -  Expretise in Frontend Framework like React/Angular with CSS tools like
+      Tailwind/Material UI etc
 
-## React Setup
+   -  Thorough knowledge of backend operation is needed to make this scalable and fast
+  
+   -  Goal behind choosing this project is to learn new tools in web development, therefore this project would require 3
+      Months to be deployed, However MVP would be ready within 30 days
 
-1. **Navigate to the React folder**:
+7. **Measure of Success**  
 
-    ```bash
-    cd react
-    ```
+   - If this application creates environment where students share their ideas and connect with Alumini and able to
+     attract outside crowd (for inorganic marketing) this would be level 1 of the success
 
-2. **Install the dependencies** (make sure to run this command inside any project folder you want to work with):
+8. **Potential Risks and Challenges?**  
 
-    ```bash
-    npm install
-    ```
+      Possible Challenges include:
+      - User Retention
+      - Traffic generation
+      - Content Review
+      - Content Writing
 
-3. **Start the React development server**:
+9.  **Future Plans**  
 
-    ```bash
-    npm start
-    ```
+    - Initially product will be subscribed/Signup from current CG batch with beta phase which would last for a month, then
+      launching to public
 
-This will start a local development server and open your default browser to view the React app.
+    -  Long term goal includes generating huge traffic to website and this would be source of inorganic marketing for
+       CodingGita Technologies Pvt Ltd
 
----
-
-## Contributing
-
-We welcome contributions from developers who are passionate about full-stack development! If you want to contribute, follow these steps:
-
-1. Fork the repository to your GitHub account.
-2. Create a new branch for your feature or fix:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Make your changes and commit them:
-   ```bash
-   git commit -m "Add feature or fix"
-   ```
-4. Push your changes:
-   ```bash
-   git push origin feature-name
-   ```
-5. Open a pull request to the `main` branch of the original repository.
-
----
-
-## License
-
-This repository is licensed under the [MIT License](LICENSE).
-
----
-
-### Additional Information
-
-For any questions or issues, feel free to open an issue or contact me via [email or other contact information].
-
-Happy coding! 🚀
-
---- 
+    - This project is Partnership with CodingGita so there would be no further partnerships, however expansions would be
+      long term goal  
