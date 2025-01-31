@@ -18,10 +18,11 @@ const StudentManagement = () => {
     fetch(API_BASE_URL)
       .then((res) => res.json())
       .then((data) => {
-        // Ensure rollNumber is treated as a number
+        // Ensure rollNumber is treated as a number and coursesEnrolled is always an array
         const formattedData = data.map((student) => ({
           ...student,
           rollNumber: Number(student.rollNumber),
+          coursesEnrolled: Array.isArray(student.coursesEnrolled) ? student.coursesEnrolled : [],
         }));
         setStudents(formattedData);
       })
@@ -45,7 +46,7 @@ const StudentManagement = () => {
       ...formData,
       coursesEnrolled: formData.coursesEnrolled.split(",").map((course) => course.trim()),
     };
-  
+
     fetch(API_BASE_URL, {
       method: "POST",
       headers: {
@@ -53,25 +54,22 @@ const StudentManagement = () => {
       },
       body: JSON.stringify(newStudent),
     })
-      .then((res) => res.text())  // Read the response as plain text
+      .then((res) => res.text()) // Read the response as plain text
       .then((data) => {
-        // Check if the response contains a success message
         if (data && data.includes("Student added with ID")) {
-          // You can optionally extract the student ID from the message if needed
-          console.log(data);  // Logs the message from the backend
+          console.log(data); // Log the message from the backend
           setStudents((prevStudents) => [
             ...prevStudents,
-            { ...newStudent, id: data.split(': ')[1] },  // Add student with the ID from the response
+            { ...newStudent, id: data.split(": ")[1] }, // Add student with extracted ID
           ]);
         } else {
-          console.error("Error adding student:", data);  // Log if the message is not as expected
+          console.error("Error adding student:", data);
         }
         setFormData({ name: "", rollNumber: "", department: "", year: "", coursesEnrolled: "" });
       })
       .catch((error) => console.error("Error adding student:", error));
   };
-  
-  
+
   // Delete a student
   const deleteStudent = (rollNumber) => {
     fetch(`${API_BASE_URL}/${rollNumber}`, {
@@ -89,7 +87,9 @@ const StudentManagement = () => {
       rollNumber: student.rollNumber, // Already a number
       department: student.department,
       year: student.year,
-      coursesEnrolled: student.coursesEnrolled.join(", "),
+      coursesEnrolled: Array.isArray(student.coursesEnrolled)
+        ? student.coursesEnrolled.join(", ")
+        : "",
     });
   };
 
@@ -130,7 +130,7 @@ const StudentManagement = () => {
               <strong>{student.name}</strong> (Roll No: {student.rollNumber}) - {student.department},{" "}
               Year: {student.year}
             </div>
-            <div>Courses: {student.coursesEnrolled.join(", ")}</div>
+            <div>Courses: {Array.isArray(student.coursesEnrolled) ? student.coursesEnrolled.join(", ") : "No courses enrolled"}</div>
             <button onClick={() => editStudent(student)} style={{ marginRight: "10px" }}>
               Edit
             </button>
