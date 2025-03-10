@@ -30,13 +30,13 @@ db.users.insertMany([
   },
   {
     userId: "u002",
-    name: "Priyesha Desai",
-    email: "priyesha@codinggita.com",
-    channelName: "PriyeshaExplains",
+    name: "Priyasha Desai",
+    email: "Priyasha@codinggita.com",
+    channelName: "priyashaExplains",
     subscribers: 4500,
     joinedDate: new Date("2019-08-20"),
     uploadedVideos: ["v003"],
-    profilePicture: "http://codinggita.com/media/priyesha.jpg",
+    profilePicture: "http://codinggita.com/media/Priyasha.jpg",
     isVerified: false
   }
 ]);
@@ -114,7 +114,7 @@ db.comments.insertMany([
     commentId: "c003",
     videoId: "v003",
     userId: "u001",
-    text: "Well done, Priyesha!",
+    text: "Well done, Priyasha!",
     likes: 20,
     postedAt: new Date("2023-03-20")
   }

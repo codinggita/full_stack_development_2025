@@ -43,7 +43,7 @@ db.users.insertMany([
   },
   {
     userId: "u002",
-    name: "Priyesha Desai",
+    name: "Priyasha Desai",
     headline: "Data Scientist at AnalyticsWorks",
     location: "Delhi, India",
     profileViews: 75,
