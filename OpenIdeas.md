@@ -246,3 +246,46 @@ Managing and organizing important documents **is time-consuming and inefficient*
 - **Backend:** Node.js with Express.js (for cloud storage and search indexing).  
 - **AI Integration:** Google Vision API (for OCR and auto-tagging).  
 - **Database:** Firebase & PostgreSQL (for document storage and metadata).  
+
+
+---
+# **10. Cricket Management System**
+
+🏏 **Target Audience:** Cricket clubs, tournament organizers, sports academies.
+
+### **Problem Statement:**
+
+Managing cricket matches and tournaments manually is inefficient. A digital cricket management system can help with **team formation, live scoring, auction management, and tournament tracking** to streamline the process.
+
+### **Key Features:**
+
+👉 **User Roles:**
+
+- **Admin:** Manages tournaments, teams, and matches.
+- **Umpire:** Updates live scores and manages match decisions.
+- **Players & Team Owners:** Participate in tournaments and auctions.
+
+👉 **Match & Tournament Management:**
+
+- **Single-match system:** Live scoring, umpire-controlled scoreboard.
+- **Tournament system:** Knockout/league-based tournament structure.
+- **Auction System:** Player bidding and team assignment.
+
+👉 **Live Score Updates & Role-Based Access:**
+
+- **WebSockets/Firebase** for real-time updates.
+- **Role-based permissions** (only umpires can update scores).
+
+👉 **Team Members**
+
+- **[Kalpan Kaneriya](https://github.com/Kalpan2007)** 
+- **[Dax Patel](https://github.com/daxp472)** 
+- **[Ridham Patel](https://github.com/Ridham2808)** 
+- **[Mayur Waykar](https://github.com/mayur2410-tech)** 
+
+### **Tech Stack & Suggested Libraries:**
+
+- **Frontend:** React.js (Tailwind CSS).
+- **Backend:** Node.js with Express.js.
+- **Database:** MongoDB .
+- **Real-time Updates:** WebSockets.
