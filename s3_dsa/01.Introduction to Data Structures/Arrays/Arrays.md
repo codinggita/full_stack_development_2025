@@ -236,7 +236,7 @@ Check:
 **Description:** Change the value at a specific index.
 
 ```cpp
-arr = 100;  // Set element at index 3 to 100
+arr[3] = 100;  // Set element at index 3 to 100
 ```
 
 - **Time Complexity:** $O(1)$
@@ -250,10 +250,10 @@ arr = 100;  // Set element at index 3 to 100
 
 #### **Representation**
 
-Before update:
+Before update:{10, 20, 30, 40, 50}
 ``
 
-After update:
+After update:{10, 20, 30, 100, 50}
 ``
 
 ***
