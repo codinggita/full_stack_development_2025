@@ -18,20 +18,16 @@
 
 9. What server-side capabilities does Next.js provide?
 
-10. How does Next.js support data fetching, caching, and revalidation?
+10. What are Route Handlers in Next.js?
 
-11. What are Route Handlers in Next.js?
+11. What built-in performance optimizations does Next.js provide?
 
-12. What built-in performance optimizations does Next.js provide?
+12. How does Next.js support SEO and metadata?
 
-13. How does Next.js support SEO and metadata?
+13. What are `loading.tsx`, `error.tsx`, and `not-found.tsx` used for?
 
-14. What are `loading.tsx`, `error.tsx`, and `not-found.tsx` used for?
+14. What types of applications are well suited for Next.js?
 
-15. What types of applications are well suited for Next.js?
+15. Does Next.js replace React? Explain the relationship between React and Next.js.
 
-16. Does Next.js replace React? Explain the relationship between React and Next.js.
-
-17. Does a Next.js application necessarily require a separate backend project?
-
-18. Do you need to use all of Next.js's features in every application?
+16. Does a Next.js application necessarily require a separate backend project?
